@@ -114,7 +114,7 @@ import requests
 #urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 #export PYTHONWARNINGS="ignore:Unverified HTTPS request"
 
-WRITE_URI='https://ts-gs53ym52ntpu7vizl.influxdata.rds.aliyuncs.com:3242/write'
+WRITE_URI='https://ts-gssssssssssssssss.influxdata.rds.aliyuncs.com:3242/write'
 
 params = (
 ('db', 'tt'),
@@ -128,7 +128,7 @@ response = requests.post(WRITE_URI, verify=False, params=params, data=data)
 print(response.status_code)
 '''
 count = 0
-WRITE_URI='https://ts-gs53ym52ntpu7vizl.influxdata.rds.aliyuncs.com:3242/write'
+WRITE_URI='https://ts-gssssssssssssssss.influxdata.rds.aliyuncs.com:3242/write'
 
 params = (
 ('db', 'tt'),
